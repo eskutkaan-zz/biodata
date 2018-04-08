@@ -1,4 +1,3 @@
-from collections import Counter
 file_object  = open("genestorage.txt", "r")
 temp_fileobj = file_object.readlines()
 indexofptt = "Pt.ID:" + input("investigating patient:") + "\n"
