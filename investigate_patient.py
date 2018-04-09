@@ -10,6 +10,5 @@ print("look at this positions for the variants of patient that you are looking f
 print("related list <temp_fileobj>")
 for i in aavv:
     print(temp_fileobj[i])
-print(temp_fileobj)
 input("press <enter> to exit")
 
