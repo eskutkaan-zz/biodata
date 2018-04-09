@@ -2,9 +2,10 @@ import os
 from Bio import SeqIO
 from Bio import Entrez
 Entrez.email = "examle@example.com"
-filename = input("Enter ID:")
+idn = input("Enter ID:")
+filename = input("Enter filename:")
 if not os.path.isfile(filename):
-    net_handle = Entrez.efetch(db="nucleotide", id="EU490707", rettype="gb", retmode="text")
+    net_handle = Entrez.efetch(db="nucleotide", id = idn, rettype="gb", retmode="text")
     out_handle = open(filename, "w")
     out_handle.write(net_handle.read())
     out_handle.close()
