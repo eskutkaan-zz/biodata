@@ -20,8 +20,3 @@ with open('genestorage.txt', 'a') as the_file:
     the_file.write("Pt.ID:" + patient_id + os.linesep)
     the_file.write("ID:" + the_id + os.linesep)
     the_file.write(the_descript + os.linesep)
-
-
-
-
-
