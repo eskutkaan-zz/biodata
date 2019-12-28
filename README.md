@@ -1,7 +1,6 @@
 # Documentation
 
 ![](https://raw.githubusercontent.com/eskutkaan/bioinforepo/master/biodata.png)
-**biodata**
 
 ## NCBI_parser Module
 The directory contains scripts for parsing records from NCBI and comparing directly, work in progress.
