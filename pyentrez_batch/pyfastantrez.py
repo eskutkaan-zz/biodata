@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+
 from Bio import Entrez
 from Bio import SeqIO
+import os
 
 Entrez.email = "example@example.com"
 ids = ["6273291","6273290"]
@@ -11,3 +14,5 @@ def batch_entrez():
             seq_record = SeqIO.read(handle, "fasta")
             print("%s with %i features" % (seq_record.id, len(seq_record.features)))
             SeqIO.write(seq_record, (str(ids[i]) + '.fasta'), "fasta")
+
+os.system("mv *.fasta fastafiles")
