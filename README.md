@@ -1,4 +1,3 @@
-# Bio-data
 A molecular toolbox for molecular biologists.
 ## Notes
 This project is developing to learn, if you want to improve, feel free, open for help.
