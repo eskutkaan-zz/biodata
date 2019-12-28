@@ -1,3 +1,5 @@
+# Documentation
+
 ## NCBI_parser Module
 The directory contains scripts for parsing records from NCBI and comparing directly, work in progress.
 
