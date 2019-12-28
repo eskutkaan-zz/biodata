@@ -3,7 +3,7 @@
 ![](https://raw.githubusercontent.com/eskutkaan/bioinforepo/master/biodata.png)
 
 ## NCBI_parser Module
-The directory contains scripts for parsing records from NCBI and comparing directly, work in progress.
+The directory contains scripts for parsing records from NCBI and comparing them directly, work in progress.
 
 ## investigate Module
 Structured txt file has been created to build minimal database for variations and annotations, work in progress.
